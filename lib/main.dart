@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widget/flutter_widget/container_widget.dart';
+import 'package:flutter_widget/flutter_widget/rich_text_widget.dart';
 import 'package:flutter_widget/flutter_widget/row_column_widget.dart';
 import 'package:flutter_widget/flutter_widget/text_widget.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: RowColumnWidget(),
+      home: RichTextWidget(),
     );
   }
 }
