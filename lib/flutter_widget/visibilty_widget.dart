@@ -9,7 +9,6 @@ class VisibilityWidget extends StatefulWidget {
 
 class _VisibilityWidgetState extends State<VisibilityWidget> {
   bool isButton1visible=true;
-
   bool isButton2visible=true;
 
   @override
